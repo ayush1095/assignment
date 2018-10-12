@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th,p{
+  font-family: "Open Sans",sans-serif;
+  font-size: 10pt;
+  color: #333;
+  line-height: 1.5;
+}
+body {
+  background-color: #f3f3f34d;
+  margin: 0;
+  position:relative;
+  height: 100vh;
+}
+ul, li {
+  font-family: "Open Sans",sans-serif;
+  font-size: 10pt;
+  color: #333;
+}
+
+#maincontent {
+  background-color: #f3f3f3;
+  min-height: 100%;
+  width: 100vw;
+}
+
+#lispan {
+  width:100%;
+
+}
+
+.count-class{
+ width: 100%;
+ height: 200px;
+}
+
+#count{
+  padding-top: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.half{
+  width: 50%;
+  display: inline-block;
+  padding-top: 15px;
+  color: gray;
+}
+
+.extra-data{
+  background: linear-gradient(to right, #fff 50%,#000 0%);
+  font-size: 14pt;
+  font-weight: 600;
+  padding-top: 20px;
+  /*border-top: 8px solid #ccc;*/
+  height: 5.25rem;
+  width: 14.5625rem;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 1.25rem 3rem 0;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  border-radius: .375rem;
+  transition: box-shadow 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  border: 1px solid #ccc;
+
+}
+
+.extra-data:hover{
+  background: none;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-top: 8px solid black;
+}
+
+#apidata {
+  /*background-color: #f3f3f34d;*/
+  list-style: outside none none;
+  margin: 0;
+  padding: 30px 15px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#apidata li {
+  border-top: 8px solid #ccc;
+  height: 17.25rem;
+  width: 16.5625rem;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  margin: 2rem 1.25rem 3rem 0;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  border-radius: .375rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+#apidata li:hover {
+  border-top: 8px solid black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+
+}
+#apidata .data-img {
+  background-color: #ccc;
+  width: 100px !important;
+  height:100px !important;
+  border-radius: 50%;
+  top: -1.7375rem;
+  display: block;
+  position: relative;
+  margin: 0 auto 1rem;
+  box-shadow: 1px 12px 20px 5px rgba(46,61,73,.15);
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+#apidata .data-img:hover{
+  box-shadow: none;
+}
+#apidata li h1 {
+  color: black;
+  font-family: Arial,sans-serif;
+  font-size: 14pt;
+  font-weight: 1.5em;
+  letter-spacing: 0;
+  line-height: 1.3;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+#apidata p {
+  margin: 0;
+  font-size: 11pt;
+}
+#data-img {
+  width: 90%;
+}
+
+
+
